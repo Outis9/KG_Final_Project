@@ -1,7 +1,5 @@
 # KG_Final_Project
 
-this is a test from Hakii
-
 ## 2022-10-26
 
 @Hakii
