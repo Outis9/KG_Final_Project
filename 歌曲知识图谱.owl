@@ -256,6 +256,61 @@
     
 
 
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#Mojito -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#Mojito">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#专辑"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#Mojito（歌曲）"/>
+        <released_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#周杰伦"/>
+        <album_introduction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">周式音乐魔法一新歌迷耳目 周杰伦带来夏日音乐特调“MOJITO”
+古巴乐手盛赞“MOJITO”曲风很拉丁 惊讶周董写歌时未来过古巴</album_introduction>
+        <album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mojito</album_name>
+        <album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07</album_release_date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#Mojito（歌曲） -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#Mojito（歌曲）">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#Mojito"/>
+        <singer_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mojito</singer_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#Now_You_See_Me -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#Now_You_See_Me">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#周杰伦地表最强世界巡回演唱会"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#周杰伦的床边故事"/>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Now You See Me</song_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#一口气全唸对 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#一口气全唸对">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#哎呦，不错哦"/>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">一口气全唸对</song_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#一点点 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#一点点">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#周杰伦的床边故事"/>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">一点点</song_name>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#七里香 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#七里香">
@@ -266,12 +321,68 @@
     
 
 
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#七里香（歌曲） -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#七里香（歌曲）">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#周杰伦地表最强世界巡回演唱会"/>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">七里香</song_name>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#三年二班 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#三年二班">
         <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
         <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#叶惠美"/>
         <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">三年二班</song_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#不爱我就拉倒 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#不爱我就拉倒">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#专辑"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#不爱我就拉倒（歌曲）"/>
+        <album_introduction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">周杰伦最新单曲全球数位发行
+[不爱我就拉倒]
+
+如果说“等你下课”是青春记忆的奶茶手摇杯
+“不爱我就拉倒”就是浓烈口感的Espresso
+
+整个世界都是他写歌的地方
+随时、随地、随心、随性
+巡演饭店里、记忆里的校园
+口头禅、电话里的一句吵架对白
+都能成为创作灵感
+
+哥有自己的创作节奏
+灵感来袭就尽情拥抱
+抱歉让你等太久</album_introduction>
+        <album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">不爱我就拉倒</album_name>
+        <album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05</album_release_date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#不爱我就拉倒（歌曲） -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#不爱我就拉倒（歌曲）">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#不爱我就拉倒"/>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">不爱我就拉倒</song_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#不该 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#不该">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#周杰伦的床边故事"/>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">不该</song_name>
     </owl:NamedIndividual>
     
 
@@ -322,11 +433,23 @@
     
 
 
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#乌克丽丽 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#乌克丽丽">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#12新作"/>
+        <album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011最新创作</album_name>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">乌克丽丽</song_name>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#以父之名 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#以父之名">
         <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
         <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#叶惠美"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#周杰伦地表最强世界巡回演唱会"/>
         <song_content rdf:datatype="http://www.w3.org/2001/XMLSchema#string">微凉的晨露 沾湿黑礼服
 石板路有雾 父在低诉
 吹不散的雾 隐没了意图
@@ -417,12 +540,42 @@
     
 
 
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#傻笑 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#傻笑">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#12新作"/>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">傻笑</song_name>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#八度空间 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#八度空间">
         <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#专辑"/>
         <album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">八度空间</album_name>
         <album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2002-07-18</album_release_date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#公公偏头痛 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#公公偏头痛">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#12新作"/>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">公公偏头痛</song_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#前世情人 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#前世情人">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#周杰伦的床边故事"/>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">前世情人</song_name>
     </owl:NamedIndividual>
     
 
@@ -437,12 +590,42 @@
     
 
 
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#半岛铁盒 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#半岛铁盒">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#周杰伦地表最强世界巡回演唱会"/>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">半岛铁盒</song_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#印地安老斑鸠 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#印地安老斑鸠">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#周杰伦地表最强世界巡回演唱会"/>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">印地安老斑鸠</song_name>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#双刀 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#双刀">
         <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
         <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#叶惠美"/>
         <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">双刀</song_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#双截棍 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#双截棍">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#周杰伦地表最强世界巡回演唱会"/>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">双截棍</song_name>
     </owl:NamedIndividual>
     
 
@@ -480,6 +663,37 @@
     
 
 
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#听爸爸的话 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#听爸爸的话">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#哎呦，不错哦"/>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">听爸爸的话</song_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#听见下雨的声音 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#听见下雨的声音">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#哎呦，不错哦"/>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">听见下雨的声音</song_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#告白气球 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#告白气球">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#周杰伦地表最强世界巡回演唱会"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#周杰伦的床边故事"/>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">告白气球</song_name>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#周杰伦 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#周杰伦">
@@ -488,7 +702,6 @@
         <release rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#七里香"/>
         <release rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#叶惠美"/>
         <release rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#周杰伦的床边故事"/>
-        <release rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#哎哟，不错哦"/>
         <release rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#惊叹号"/>
         <release rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#我很忙"/>
         <release rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#摩杰座"/>
@@ -504,13 +717,67 @@
     
 
 
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#周杰伦地表最强世界巡回演唱会 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#周杰伦地表最强世界巡回演唱会">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#专辑"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#Now_You_See_Me"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#七里香"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#以父之名"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#半岛铁盒"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#印地安老斑鸠"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#双截棍"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#告白气球"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#土耳其冰淇淋"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#床边故事"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#开不了口"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#我的时代"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#我要夏天"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#晴天"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#爷爷泡的茶"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#爸我回来了"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#稻香"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#美人鱼"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#英雄"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#说走就走"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#青花瓷"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#鞋子特大号"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#夜曲_+_窃爱"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#大笨钟_+_暗号_+_彩虹_+_龙卷风"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#枫_+_退后_+_搁浅"/>
+        <released_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#周杰伦"/>
+        <album_introduction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">地表最强音乐引力
+太空人也挡不住！
+用音乐出发，建构出神入化的感官新宇宙！
+
+周杰伦
+“地表最强THE INVINCIBLE”演唱会
+DVD版.蓝光版
+太空银.宇宙黑 特殊造型铁盒包装
+11/01重磅回归地表发行</album_introduction>
+        <album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">周杰伦地表最强世界巡回演唱会</album_name>
+        <album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11</album_release_date>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#周杰伦的床边故事 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#周杰伦的床边故事">
         <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#专辑"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#Now_You_See_Me"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#一点点"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#不该"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#前世情人"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#告白气球"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#土耳其冰淇淋"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#床边故事"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#爱情废柴"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#英雄"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#说走就走"/>
         <released_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#周杰伦"/>
         <album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">周杰伦的床边故事</album_name>
-        <album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2016-06-24</album_release_date>
+        <album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-24</album_release_date>
     </owl:NamedIndividual>
     
 
@@ -519,6 +786,11 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#周杰伦限定珍藏DEMO空间">
         <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#专辑"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#搁浅_DEMO"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#晴天_DEMO"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#爱在西元前_DEMO"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#纽约地铁_DEMO"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#青花瓷_DEMO"/>
         <album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">周杰伦限定珍藏DEMO空间</album_name>
         <album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-08</album_release_date>
         <singer_introduction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Demo有时候这样乱唱一个歌词，觉得这一句好像很顺，然后就开始写下去这个歌词。特别地来了，听一下这个尾奏，蛮长的。但现在应该没有这样子，当初为什么没有把这个尾奏写进去，其实我也不知道。”</singer_introduction>
@@ -526,12 +798,84 @@
     
 
 
-    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#哎哟，不错哦 -->
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#哎呦，不错哦 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#哎哟，不错哦">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#哎呦，不错哦">
         <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#专辑"/>
-        <album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">哎哟，不错哦</album_name>
-        <album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014-12-26</album_release_date>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#一口气全唸对"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#听爸爸的话"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#听见下雨的声音"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#天涯过客"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#怎么了"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#我要夏天"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#手写的从前"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#窃爱"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#算什么男人"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#美人鱼"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#阳明山"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#鞋子特大号"/>
+        <released_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#周杰伦"/>
+        <album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">哎呦，不错哦</album_name>
+        <album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">哎呦，不错哦，将自己的口头禅当成专辑名称，似乎有意呈现专辑更贴近他本人的内在，新歌“鞋子特大号”大玩幽默创意，更化身喜剧泰斗卓别林，让人耳目一新。
+
+周杰伦以往总爱将口头禅写入歌词，例如“我的地盘”就有“der”、“超人不会飞”有“超屌”、“红模仿”的“哎呦”等，如今把口头禅当专辑名称，是周杰伦的主意，并被唱片公司接受。
+
+首波主打歌“鞋子特大号”，周杰伦作曲、方文山作词，周杰伦说：“‘鞋子特大号’走复古风的嘻哈饶舌歌，歌词有卓别林式的幽默。
+”他以诙谐、顽童的口吻演唱，包含低沉嗓音，和声的安排细节令人莞尔一笑。
+
+卓别林在世人心目中，具有许多特色，包括宽大鞋子、窄西装、圆顶帽子及手杖等，方文山举例“双截棍”之于李小龙，“鞋子特大号”就是卓别林的写照。</album_name>
+        <album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12</album_release_date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#哪里都是你 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#哪里都是你">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#12新作"/>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">哪里都是你</song_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#四季列车 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#四季列车">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#12新作"/>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">四季列车</song_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#土耳其冰淇淋 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#土耳其冰淇淋">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#周杰伦地表最强世界巡回演唱会"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#周杰伦的床边故事"/>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">土耳其冰淇淋</song_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#大笨钟 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#大笨钟">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#12新作"/>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">大笨钟</song_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#天涯过客 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#天涯过客">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#哎呦，不错哦"/>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">天涯过客</song_name>
     </owl:NamedIndividual>
     
 
@@ -542,6 +886,37 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
         <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#叶惠美"/>
         <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">她的睫毛</song_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#床边故事 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#床边故事">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#爱的飞行日记"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#周杰伦地表最强世界巡回演唱会"/>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">床边故事</song_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#开不了口 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#开不了口">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#周杰伦地表最强世界巡回演唱会"/>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">开不了口</song_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#怎么了 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#怎么了">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#哎呦，不错哦"/>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">怎么了</song_name>
     </owl:NamedIndividual>
     
 
@@ -566,12 +941,63 @@
     
 
 
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#我叫小麦 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#我叫小麦">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#2011最新创作"/>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">我叫小麦</song_name>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#我很忙 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#我很忙">
         <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#专辑"/>
         <album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">我很忙</album_name>
         <album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007-11-01</album_release_date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#我的时代 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#我的时代">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#周杰伦地表最强世界巡回演唱会"/>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">我的时代</song_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#我要夏天 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#我要夏天">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#周杰伦地表最强世界巡回演唱会"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#哎呦，不错哦"/>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">我要夏天</song_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#手写的从前 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#手写的从前">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#哎呦，不错哦"/>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">手写的从前</song_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#手语 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#手语">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#12新作"/>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">手语</song_name>
     </owl:NamedIndividual>
     
 
@@ -596,11 +1022,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#明明就 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#明明就">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#12新作"/>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">明明就</song_name>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#晴天 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#晴天">
         <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
         <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#叶惠美"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#周杰伦地表最强世界巡回演唱会"/>
         <song_content rdf:datatype="http://www.w3.org/2001/XMLSchema#string">故事的小黄花
 从出生那年就飘着
 童年的荡秋千
@@ -666,12 +1103,60 @@ sou la xi xi xi xi la xi la sou
     
 
 
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#梦想启动 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#梦想启动">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#12新作"/>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">梦想启动</song_name>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#梯田 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#梯田">
         <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
         <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#叶惠美"/>
         <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">梯田</song_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#比较大的大提琴 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#比较大的大提琴">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#12新作"/>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">比较大的大提琴</song_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#游戏_英雄联盟 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#游戏_英雄联盟">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#专辑"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#英雄"/>
+        <album_introduction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">人生不是一个人的游戏
+一起奋斗一起超越一起杀吧sup兄弟
+好战好胜战胜逆命
+管他天赋够不够我们都还需要再努力
+
+亚洲天王周杰伦为英雄联盟打造品牌主题曲“英雄”，以悬疑重拍摇滚嘻哈曲风，塑造出游戏世界里的英雄们各个身怀绝技、武功高强的音乐形象！
+身为《英雄联盟》忠实玩家的周杰伦，以他独特的歌词语法将游戏对战的过程描述得活灵活现；甚至游戏术语也可以唱成歌词；更用他J式趣味语法来形容游戏里的战斗动作</album_introduction>
+        <album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">游戏 英雄联盟</album_name>
+        <album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-03</album_release_date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#爱你没差 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#爱你没差">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#12新作"/>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">爱你没差</song_name>
     </owl:NamedIndividual>
     
 
@@ -686,12 +1171,72 @@ sou la xi xi xi xi la xi la sou
     
 
 
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#爱情废柴 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#爱情废柴">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#周杰伦的床边故事"/>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">爱情废柴</song_name>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#爱的悬崖 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#爱的悬崖">
         <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
         <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#叶惠美"/>
         <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">爱的悬崖</song_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#爱的飞行日记 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#爱的飞行日记">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#周杰伦地表最强世界巡回演唱会"/>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">爱的飞行日记</song_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#爷爷泡的茶 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#爷爷泡的茶">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#周杰伦地表最强世界巡回演唱会"/>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">爷爷泡的茶</song_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#爸我回来了 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#爸我回来了">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#周杰伦地表最强世界巡回演唱会"/>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">爸我回来了</song_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#稻香 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#稻香">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#周杰伦地表最强世界巡回演唱会"/>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">稻香</song_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#窃爱 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#窃爱">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#哎呦，不错哦"/>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">窃爱</song_name>
     </owl:NamedIndividual>
     
 
@@ -706,12 +1251,55 @@ sou la xi xi xi xi la xi la sou
     
 
 
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#算什么男人 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#算什么男人">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#哎呦，不错哦"/>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">算什么男人</song_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#红尘客栈 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#红尘客栈">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#12新作"/>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">红尘客栈</song_name>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#纽约地铁_DEMO -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#纽约地铁_DEMO">
         <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
         <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#周杰伦限定珍藏DEMO空间"/>
         <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">纽约地铁 DEMO</song_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#美人鱼 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#美人鱼">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#周杰伦地表最强世界巡回演唱会"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#哎呦，不错哦"/>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">美人鱼</song_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#英雄 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#英雄">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#周杰伦地表最强世界巡回演唱会"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#周杰伦的床边故事"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#游戏_英雄联盟"/>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">英雄</song_name>
     </owl:NamedIndividual>
     
 
@@ -726,12 +1314,42 @@ sou la xi xi xi xi la xi la sou
     
 
 
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#说走就走 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#说走就走">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#周杰伦地表最强世界巡回演唱会"/>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">说走就走</song_name>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#跨时代 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#跨时代">
         <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#专辑"/>
         <album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">跨时代</album_name>
         <album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-05-18</album_release_date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#阳明山 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#阳明山">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#哎呦，不错哦"/>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">阳明山</song_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#青花瓷 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#青花瓷">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#周杰伦地表最强世界巡回演唱会"/>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">青花瓷</song_name>
     </owl:NamedIndividual>
     
 
@@ -746,12 +1364,81 @@ sou la xi xi xi xi la xi la sou
     
 
 
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#鞋子特大号 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#鞋子特大号">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#周杰伦地表最强世界巡回演唱会"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#哎呦，不错哦"/>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">鞋子特大号</song_name>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#12新作 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#12新作">
         <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#专辑"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#乌克丽丽"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#傻笑"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#公公偏头痛"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#哪里都是你"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#四季列车"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#大笨钟"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#手语"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#明明就"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#梦想启动"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#比较大的大提琴"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#爱你没差"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#红尘客栈"/>
+        <released_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#周杰伦"/>
+        <album_introduction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12这个数字在古今中外，东西方玄学甚至科学思想上都有特殊意义；时间的计算方式以12为基准，古代中国传统是以12时辰为计时标准，一年有12个月、东方有12生肖、西方有12星座；12在生活上无所不在。
+因此数字12，属于圆满的象征，12代表的也是一种完全的意思。
+周杰伦的12，代表的也是一种圆满与完全，出道第12年的第十二个月，推出一年一张的新专辑，代表着对音乐的圆满成就，也代表音乐界另一个新的大循环的预告。</album_introduction>
         <album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12新作</album_name>
         <album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012-12-28</album_release_date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#2011最新创作 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#2011最新创作">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#专辑"/>
+        <include rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#我叫小麦"/>
+        <released_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#周杰伦"/>
+        <album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011最新创作</album_name>
+        <album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-05</album_release_date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#夜曲_+_窃爱 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#夜曲_+_窃爱">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#周杰伦地表最强世界巡回演唱会"/>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">夜曲 + 窃爱</song_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#大笨钟_+_暗号_+_彩虹_+_龙卷风 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#大笨钟_+_暗号_+_彩虹_+_龙卷风">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#周杰伦地表最强世界巡回演唱会"/>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">大笨钟 + 暗号 + 彩虹 + 龙卷风</song_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#枫_+_退后_+_搁浅 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#枫_+_退后_+_搁浅">
+        <rdf:type rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#歌曲"/>
+        <include_by rdf:resource="http://www.semanticweb.org/张涛/ontologies/2019/1/untitled-ontology-32#周杰伦地表最强世界巡回演唱会"/>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">枫 + 退后 + 搁浅</song_name>
     </owl:NamedIndividual>
 </rdf:RDF>
 
