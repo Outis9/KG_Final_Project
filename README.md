@@ -2,6 +2,16 @@
 
 this is a test from Hakii
 
+## owl转rdf
+
+在终端内输入
+
+```java
+ java -jar rdf2rdf-1.0.1-2.3.1.jar .\歌曲知识图谱.owl 歌曲知识图谱.rdf
+```
+
+
+
 ## 2022-10-26
 
 @Hakii
