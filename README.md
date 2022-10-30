@@ -21,6 +21,7 @@ $\downarrow$
 3. *新建若干首单曲*
 4. *单曲添加属性song_name、include_by*
 5. *返回专辑，添加单曲include*
+5. 返回歌手周杰伦，添加release专辑
 
 ---
 
