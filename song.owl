@@ -531,7 +531,7 @@
         <released_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦"/>
         <album_introduction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">首波发布专辑同名单曲“最伟大的作品”，融合文学与艺术主题，向世界上伟大的艺术家致敬；而众聆听者，即将跟着时空旅人周杰伦的眼睛与耳朵，阅览徐志摩的诗文、马格利特、达利、梵谷、莫内的创作心灵、古风鱼雁的情怀、触景动心的抒情；无论是哪瞬烟火的灿烂、或是从不曾见过的风景，在这些歌里，仿佛都如临其境，跟随着周杰伦一起在创作的路上壮游世界！</album_introduction>
         <album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">最伟大的作品</album_name>
-        <album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07</album_release_date>
+        <album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-07</album_release_date>
     </owl:NamedIndividual>
     
 
@@ -863,7 +863,7 @@
         <album_introduction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">周式音乐魔法一新歌迷耳目 周杰伦带来夏日音乐特调“MOJITO”
 古巴乐手盛赞“MOJITO”曲风很拉丁 惊讶周董写歌时未来过古巴</album_introduction>
         <album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mojito</album_name>
-        <album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07</album_release_date>
+        <album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-07</album_release_date>
     </owl:NamedIndividual>
     
 
@@ -874,7 +874,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
         <include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#最伟大的作品"/>
         <include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#Mojito"/>
-        <singer_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mojito</singer_name>
+        <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mojito</song_name>
     </owl:NamedIndividual>
     
 
@@ -961,7 +961,7 @@
 灵感来袭就尽情拥抱
 抱歉让你等太久</album_introduction>
         <album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">不爱我就拉倒</album_name>
-        <album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05</album_release_date>
+        <album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-05</album_release_date>
     </owl:NamedIndividual>
     
 
@@ -1365,7 +1365,7 @@ DVD版.蓝光版
 太空银.宇宙黑 特殊造型铁盒包装
 11/01重磅回归地表发行</album_introduction>
         <album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">周杰伦地表最强世界巡回演唱会</album_name>
-        <album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11</album_release_date>
+        <album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019-11</album_release_date>
     </owl:NamedIndividual>
     
 
@@ -1386,7 +1386,7 @@ DVD版.蓝光版
         <include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#说走就走"/>
         <released_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦"/>
         <album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">周杰伦的床边故事</album_name>
-        <album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-24</album_release_date>
+        <album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2016-06-24</album_release_date>
     </owl:NamedIndividual>
     
 
@@ -1401,7 +1401,7 @@ DVD版.蓝光版
         <include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#纽约地铁_DEMO"/>
         <include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#青花瓷_DEMO"/>
         <album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">周杰伦限定珍藏DEMO空间</album_name>
-        <album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-08</album_release_date>
+        <album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-08</album_release_date>
         <singer_introduction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Demo有时候这样乱唱一个歌词，觉得这一句好像很顺，然后就开始写下去这个歌词。特别地来了，听一下这个尾奏，蛮长的。但现在应该没有这样子，当初为什么没有把这个尾奏写进去，其实我也不知道。”</singer_introduction>
     </owl:NamedIndividual>
     
@@ -1433,7 +1433,7 @@ DVD版.蓝光版
 ”他以诙谐、顽童的口吻演唱，包含低沉嗓音，和声的安排细节令人莞尔一笑。
 
 卓别林在世人心目中，具有许多特色，包括宽大鞋子、窄西装、圆顶帽子及手杖等，方文山举例“双截棍”之于李小龙，“鞋子特大号”就是卓别林的写照。</album_name>
-        <album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12</album_release_date>
+        <album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014-12</album_release_date>
     </owl:NamedIndividual>
     
 
@@ -1761,7 +1761,7 @@ sou la xi xi xi xi la xi la sou
 亚洲天王周杰伦为英雄联盟打造品牌主题曲“英雄”，以悬疑重拍摇滚嘻哈曲风，塑造出游戏世界里的英雄们各个身怀绝技、武功高强的音乐形象！
 身为《英雄联盟》忠实玩家的周杰伦，以他独特的歌词语法将游戏对战的过程描述得活灵活现；甚至游戏术语也可以唱成歌词；更用他J式趣味语法来形容游戏里的战斗动作</album_introduction>
         <album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">游戏 英雄联盟</album_name>
-        <album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-03</album_release_date>
+        <album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2016-03</album_release_date>
     </owl:NamedIndividual>
     
 
@@ -2039,7 +2039,7 @@ sou la xi xi xi xi la xi la sou
         <include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#我叫小麦"/>
         <released_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦"/>
         <album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011最新创作</album_name>
-        <album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-05</album_release_date>
+        <album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011-05</album_release_date>
     </owl:NamedIndividual>
     
 
