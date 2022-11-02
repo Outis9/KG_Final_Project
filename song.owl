@@ -848,6 +848,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#JAY">
         <rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#专辑"/>
+        <released_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦"/>
         <album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JAY</album_name>
         <album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-11-13</album_release_date>
     </owl:NamedIndividual>
@@ -1309,15 +1310,22 @@
         <release rdf:resource="http://www.co-ode.org/ontologies/ont.owl#说好不哭"/>
         <release rdf:resource="http://www.co-ode.org/ontologies/ont.owl#雪碧篮球"/>
         <release rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#JAY"/>
+        <release rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#Mojito"/>
         <release rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#七里香"/>
+        <release rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#不爱我就拉倒"/>
         <release rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#叶惠美"/>
+        <release rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦地表最强世界巡回演唱会"/>
         <release rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦的床边故事"/>
+        <release rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦限定珍藏DEMO空间"/>
+        <release rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#哎呦，不错哦"/>
         <release rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#我很忙"/>
         <release rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#摩杰座"/>
+        <release rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#游戏_英雄联盟"/>
         <release rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#等你下课"/>
         <release rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#范特西"/>
         <release rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#跨时代"/>
         <release rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#12新作"/>
+        <release rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#2011最新创作"/>
         <singer_birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1979年1月18日</singer_birthday>
         <singer_english_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jay</singer_english_name>
         <singer_introduction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">著名歌手，音乐人，词曲创作人，编曲及制作人，MV及电影导演。新世纪华语歌坛领军人物，中国风歌曲始祖，被时代周刊誉为“亚洲猫王”，是2000年后亚洲流行乐坛最具革命性与指标性的创作歌手，亚洲销量超过3100万张，有“亚洲流行天王”之称，开启华语乐坛“R&amp;B时代”与“流行乐中国风”的先河，周杰伦的出现打破了亚洲流行乐坛长年停滞不前的局面，为亚洲流行乐坛翻开了新的一页，是华语乐坛真正把R&amp;B提升到主流高度的人物，引领华语乐坛革命整十年，改写了华语乐坛的流行方向。</singer_introduction>
