@@ -1,0 +1,1587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#include">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<owl:inverseOf rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#include_by"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#专辑"/>
+	<rdfs:range rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#include_by">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<rdfs:range rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#专辑"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#release">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<owl:inverseOf rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#released_by"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌手"/>
+	<rdfs:range rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#专辑"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#released_by">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#专辑"/>
+	<rdfs:range rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌手"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#album_introduction">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#专辑"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#album_name">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#专辑"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#album_release_date">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#singer_birthday">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌手"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#singer_english_name">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌手"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#singer_introduction">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌手"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#singer_name">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌手"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#song_content">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#song_name">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#专辑">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:subClassOf rdf:nodeID="node1ggs2de51x1"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node1ggs2de51x1">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#album_release_date"/>
+	<owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#专辑">
+	<rdfs:subClassOf rdf:nodeID="node1ggs2de51x2"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node1ggs2de51x2">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#album_introduction"/>
+	<owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#专辑">
+	<rdfs:subClassOf rdf:nodeID="node1ggs2de51x3"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node1ggs2de51x3">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#album_name"/>
+	<owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌手">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:subClassOf rdf:nodeID="node1ggs2de51x4"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node1ggs2de51x4">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#singer_birthday"/>
+	<owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌手">
+	<rdfs:subClassOf rdf:nodeID="node1ggs2de51x5"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node1ggs2de51x5">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#singer_english_name"/>
+	<owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌手">
+	<rdfs:subClassOf rdf:nodeID="node1ggs2de51x6"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node1ggs2de51x6">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#singer_introduction"/>
+	<owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌手">
+	<rdfs:subClassOf rdf:nodeID="node1ggs2de51x7"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node1ggs2de51x7">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#singer_name"/>
+	<owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:subClassOf rdf:nodeID="node1ggs2de51x8"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node1ggs2de51x8">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#song_content"/>
+	<owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲">
+	<rdfs:subClassOf rdf:nodeID="node1ggs2de51x9"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node1ggs2de51x9">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#song_name"/>
+	<owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Mine_Mine">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#周杰伦魔天伦世界巡回演唱会"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#惊叹号"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mine Mine</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Try">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#专辑"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Try（歌曲）"/>
+	<released_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦"/>
+	<album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Try</album_name>
+	<album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2016-01</album_release_date>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Try（歌曲）">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Try"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Try</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#一路向北">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#周杰伦魔天伦世界巡回演唱会"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">一路向北</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#不能说的秘密">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#周杰伦魔天伦世界巡回演唱会"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">不能说的秘密</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#世界未末日">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#惊叹号"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">世界未末日</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#你好吗">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#惊叹号"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">你好吗</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#倒影">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#最伟大的作品"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">倒影</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#免费教学录影带">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#跨时代"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">免费教学录音带</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#公主病">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#惊叹号"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">公主病</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#周杰伦魔天伦世界巡回演唱会">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#专辑"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Mine_Mine"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#一路向北"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#不能说的秘密"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#天台（歌曲）"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#快门慢舞"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#打架舞"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#最后的战役"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#阳光宅男"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#龙卷风"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#龙拳"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#彩虹+轨迹"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#斗牛+水手怕水+大笨钟"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#乌克丽丽"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#公公偏头痛"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#双截棍"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#哪里都是你"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#开不了口"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#惊叹号（歌曲）"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#手语"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#明明就"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#比较大的大提琴"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#青花瓷"/>
+	<released_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦"/>
+	<album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">周杰伦魔天伦世界巡回演唱会</album_name>
+	<album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2016-05</album_release_date>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#嘻哈空姐">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#跨时代"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">嘻哈空姐</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#天台">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#专辑"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#天台的月光"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#天台（歌曲）"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#打架舞"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#波爷"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#钱难赚"/>
+	<released_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦"/>
+	<album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">天台</album_name>
+	<album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013-06</album_release_date>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#天台的月光">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#天台"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">天台的月光</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#天台（歌曲）">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#周杰伦魔天伦世界巡回演唱会"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#天台"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">天台</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#天地一斗">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#雪碧篮球"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">天地一斗</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#好久不见">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#跨时代"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">好久不见</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#快门慢舞">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#周杰伦魔天伦世界巡回演唱会"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">快门慢舞</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#惊叹号">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#专辑"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Mine_Mine"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#世界未末日"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#你好吗"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#公主病"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#水手怕水"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#琴伤"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#疗伤烧肉粽"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#皮影戏"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#超跑女神"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#迷魂曲"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#惊叹号（歌曲）"/>
+	<released_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦"/>
+	<album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">惊叹号</album_name>
+	<album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011-11</album_release_date>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#我是如此相信">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#最伟大的作品"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#电影_天火"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">我是如此相信</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#我落泪。情绪零碎">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#跨时代"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">我落泪。情绪零碎</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#打架舞">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#周杰伦魔天伦世界巡回演唱会"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#天台"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">打架舞</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#最伟大的作品">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#专辑"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#倒影"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#我是如此相信"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#最伟大的作品（歌曲）"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#等你下课（歌曲）"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#粉色海洋"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#红颜如霜"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#说好不哭（歌曲）"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#还在流浪"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#错过的烟火"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#Mojito（歌曲）"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#不爱我就拉倒（歌曲）"/>
+	<released_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦"/>
+	<album_introduction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">首波发布专辑同名单曲“最伟大的作品”，融合文学与艺术主题，向世界上伟大的艺术家致敬；而众聆听者，即将跟着时空旅人周杰伦的眼睛与耳朵，阅览徐志摩的诗文、马格利特、达利、梵谷、莫内的创作心灵、古风鱼雁的情怀、触景动心的抒情；无论是哪瞬烟火的灿烂、或是从不曾见过的风景，在这些歌里，仿佛都如临其境，跟随着周杰伦一起在创作的路上壮游世界！</album_introduction>
+	<album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">最伟大的作品</album_name>
+	<album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-07</album_release_date>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#最伟大的作品（歌曲）">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#最伟大的作品"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">最伟大的作品</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#最后的战役">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#周杰伦魔天伦世界巡回演唱会"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">最后的战役</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#水手怕水">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#惊叹号"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">水手怕水</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#波爷">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#天台"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">波爷</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#烟花易冷">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#跨时代"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">烟花易冷</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#琴伤">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#惊叹号"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">琴伤</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#电影_天火">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#专辑"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#我是如此相信"/>
+	<released_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦"/>
+	<album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">电影 天火</album_name>
+	<album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019-12</album_release_date>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#疗伤烧肉粽">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#惊叹号"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">疗伤烧肉粽</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#皮影戏">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#惊叹号"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">皮影戏</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#等你下课（歌曲）">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#最伟大的作品"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#等你下课"/>
+	<song_name>等你下课</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#粉色海洋">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#最伟大的作品"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">粉色海洋</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#红颜如霜">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#最伟大的作品"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">红颜如霜</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#自导自演">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#跨时代"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">自导自演</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#说了再见">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#跨时代"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">说了再见</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#说好不哭">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#专辑"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#说好不哭（歌曲）"/>
+	<released_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦"/>
+	<album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">说好不哭</album_name>
+	<album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019-09</album_release_date>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#说好不哭（歌曲）">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#最伟大的作品"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#说好不哭"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">说好不哭</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#超人不会飞">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#跨时代"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">超人不会飞</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#超跑女神">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#惊叹号"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">超跑女神</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#跨时代（歌曲）">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#跨时代"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">跨时代</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#还在流浪">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#最伟大的作品"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">还在流浪</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#迷魂曲">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#惊叹号"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">迷魂曲</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#钱难赚">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#天台"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">钱难赚</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#错过的烟火">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#最伟大的作品"/>
+	<song_name>错过的烟火</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#阳光宅男">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#周杰伦魔天伦世界巡回演唱会"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">阳光宅男</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#雨下一整晚">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#跨时代"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">雨下一整晚</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#雪碧篮球">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#专辑"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#天地一斗"/>
+	<released_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦"/>
+	<album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">雪碧篮球</album_name>
+	<album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011-01</album_release_date>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#龙卷风">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#周杰伦魔天伦世界巡回演唱会"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">龙卷风</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#龙拳">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#周杰伦魔天伦世界巡回演唱会"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">龙拳</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#彩虹+轨迹">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#周杰伦魔天伦世界巡回演唱会"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">彩虹+轨迹</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#斗牛+水手怕水+大笨钟">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#周杰伦魔天伦世界巡回演唱会"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">斗牛+水手怕水+大笨钟</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#JAY">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#专辑"/>
+	<album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JAY</album_name>
+	<album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-11-13</album_release_date>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#Mojito">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#专辑"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#Mojito（歌曲）"/>
+	<released_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦"/>
+	<album_introduction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">周式音乐魔法一新歌迷耳目 周杰伦带来夏日音乐特调“MOJITO”
+古巴乐手盛赞“MOJITO”曲风很拉丁 惊讶周董写歌时未来过古巴</album_introduction>
+	<album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mojito</album_name>
+	<album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-07</album_release_date>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#Mojito（歌曲）">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#最伟大的作品"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#Mojito"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mojito</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#Now_You_See_Me">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦地表最强世界巡回演唱会"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦的床边故事"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Now You See Me</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#一口气全唸对">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#哎呦，不错哦"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">一口气全唸对</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#一点点">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦的床边故事"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">一点点</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#七里香">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#专辑"/>
+	<album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">七里香</album_name>
+	<album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2004-08-03</album_release_date>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#七里香（歌曲）">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦地表最强世界巡回演唱会"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">七里香</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#三年二班">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#叶惠美"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">三年二班</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#不爱我就拉倒">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#专辑"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#不爱我就拉倒（歌曲）"/>
+	<album_introduction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">周杰伦最新单曲全球数位发行
+[不爱我就拉倒]
+
+如果说“等你下课”是青春记忆的奶茶手摇杯
+“不爱我就拉倒”就是浓烈口感的Espresso
+
+整个世界都是他写歌的地方
+随时、随地、随心、随性
+巡演饭店里、记忆里的校园
+口头禅、电话里的一句吵架对白
+都能成为创作灵感
+
+哥有自己的创作节奏
+灵感来袭就尽情拥抱
+抱歉让你等太久</album_introduction>
+	<album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">不爱我就拉倒</album_name>
+	<album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-05</album_release_date>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#不爱我就拉倒（歌曲）">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#最伟大的作品"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#不爱我就拉倒"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">不爱我就拉倒</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#不该">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦的床边故事"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">不该</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#东风破">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#叶惠美"/>
+	<song_content rdf:datatype="http://www.w3.org/2001/XMLSchema#string">一盏离愁孤单伫立在窗口
+我在门后假装你人还没走
+旧地如重游月圆更寂寞
+夜半清醒的烛火不忍苛责我
+一壶漂泊浪迹天涯难入喉
+你走之后酒暖回忆思念瘦
+水向东流时间怎么偷
+花开就一次成熟我却错过
+谁在用琵琶弹奏一曲东风破
+岁月在墙上剥落看见小时候
+犹记得那年我们都还很年幼
+而如今琴声幽幽我的等候你没听过
+谁在用琵琶弹奏一曲东风破
+枫叶将故事染色结局我看透
+篱笆外的古道我牵着你走过
+荒烟漫草的年头就连分手都很沉默
+一壶漂泊浪迹天涯难入喉
+你走之后酒暖回忆思念瘦
+水向东流时间怎么偷
+花开就一次成熟我却错过
+谁在用琵琶弹奏一曲东风破
+岁月在墙上剥落看见小时候
+犹记得那年我们都还很年幼
+而如今琴声幽幽我的等候你没听过
+谁在用琵琶弹奏一曲东风破
+枫叶将故事染色结局我看透
+篱笆外的古道我牵着你走过
+荒烟漫草的年头就连分手都很沉默
+谁在用琵琶弹奏一曲东风破
+岁月在墙上剥落看见小时候
+犹记得那年我们都还很年幼
+而如今琴声幽幽我的等候你没听过
+谁在用琵琶弹奏一曲东风破
+枫叶将故事染色结局我看透
+篱笆外的古道我牵着你走过
+荒烟漫草的年头就连分手都很沉默</song_content>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">东风破</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#乌克丽丽">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#周杰伦魔天伦世界巡回演唱会"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#12新作"/>
+	<album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011最新创作</album_name>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">乌克丽丽</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#以父之名">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#叶惠美"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦地表最强世界巡回演唱会"/>
+	<song_content rdf:datatype="http://www.w3.org/2001/XMLSchema#string">微凉的晨露 沾湿黑礼服
+石板路有雾 父在低诉
+吹不散的雾 隐没了意图
+无奈的觉悟 只能更残酷
+一切都为了 通往圣堂的路
+谁轻柔踱步 停住
+还来不及哭 穿过的子弹
+就带走 温度
+我们每个人都有罪 犯着不同的罪
+我能决定谁对 谁又该要沈睡
+争论不能解决 在永无止境的夜
+关掉你的嘴 唯一的恩惠
+挡在前面的人都有罪
+后悔也无路可退 以父之名判决
+那感觉没有适合字
+就像边笑边掉泪 凝视着完全的黑
+阻挡悲剧蔓延的悲剧会让我沉醉
+低头亲吻我的左手 换取被宽恕的承诺
+老旧管风琴在角落 一直一直一直伴奏
+黑色帘幕被风吹动阳光无言的穿透
+洒向那群被我驯服后的 兽
+沉默的喊叫 沉默的喊叫 孤单开始发酵
+不停对着我嘲笑 回忆逐渐延烧
+曾经纯真的画面 残忍的温柔出现
+脆弱时间到 我们一起来祷告
+请原谅我的自负
+仁慈的父我已坠入 看不见罪的国度
+没人能说没人可说 好难承受
+荣耀的背后刻着一道孤独
+闭上双眼我又看见
+当年那梦的画面
+天空是蒙蒙的雾
+父亲牵着我的双手
+轻轻走过 清晨那安安静静的石板路
+低头亲吻我的左手 换取被宽恕的承诺
+老旧管风琴在角落 一直一直一直伴奏
+黑色帘幕被风吹动阳光无言的穿透
+洒向那群被我驯服后的 兽
+沉默的喊叫 沉默的喊叫 孤单开始发酵
+不停对着我嘲笑 回忆逐渐延烧
+曾经纯真的画面 残忍的温柔出现
+脆弱时间到 我们一起来祷告
+仁慈的父我已坠入 看不见罪的国度
+请原谅我的自负
+没人能说没人可说 好难承受
+荣耀的背后刻着一道孤独
+仁慈的父我已坠入 看不见罪的国度
+请原谅我的自负
+仁慈的父我已坠入 看不见罪的国度
+请原谅我的自负
+没人能说没人可说 好难承受
+荣耀的背后刻着一道孤独
+闭上双眼我又看见
+那斑驳的家徽 我擦拭了一夜
+孤独的光辉 我才懂的感觉
+当年那梦的画面
+烛光 不 不 停的 摇晃
+天空是蒙蒙的雾
+猫头鹰在 窗棂上 对着远方眺望
+父亲牵着我的双手
+通向 大厅的长廊 一样 说不出的沧桑
+轻轻走过 清晨那安安静静的石板路
+没有喧嚣 只有宁静围绕
+我 慢慢睡着 天 刚刚破晓
+银光晚餐制作</song_content>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">以父之名</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#你听得到">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#叶惠美"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">你听得到</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#依然范特西">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#专辑"/>
+	<album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">依然范特西</album_name>
+	<album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006-09-05</album_release_date>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#傻笑">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#12新作"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">傻笑</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#八度空间">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#专辑"/>
+	<album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">八度空间</album_name>
+	<album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2002-07-18</album_release_date>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#公公偏头痛">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#周杰伦魔天伦世界巡回演唱会"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#12新作"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">公公偏头痛</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#前世情人">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦的床边故事"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">前世情人</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#十一月的肖邦">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#专辑"/>
+	<album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">十一月的肖邦</album_name>
+	<album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005-11-01</album_release_date>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#半岛铁盒">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦地表最强世界巡回演唱会"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">半岛铁盒</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#印地安老斑鸠">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦地表最强世界巡回演唱会"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">印地安老斑鸠</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#双刀">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#叶惠美"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">双刀</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#双截棍">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#周杰伦魔天伦世界巡回演唱会"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦地表最强世界巡回演唱会"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">双截棍</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#叶惠美">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#专辑"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#三年二班"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#东风破"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#以父之名"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#你听得到"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#双刀"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#同一种调调"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#她的睫毛"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#懦夫"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#晴天"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#梯田"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#爱的悬崖"/>
+	<released_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦"/>
+	<album_introduction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">近日转会加盟新公司的周杰伦，同时推出了其年度国语专辑《叶惠美》，收录11首个人独唱歌曲。虽然新碟的惊喜不大，但仍保持着阿Jay一贯的个人风格(其实这正是乐迷最喜欢的)，而且多首歌曲亦较以往更有深度，故此并不算「原地踏步」。再者，当中某几首歌曲，更是惹人钟爱之作，相信这专辑依然会得到不少乐迷支持。</album_introduction>
+	<album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">叶惠美</album_name>
+	<album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2003-07-31</album_release_date>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#同一种调调">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#叶惠美"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">同一种调调</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#听爸爸的话">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#哎呦，不错哦"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">听爸爸的话</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#听见下雨的声音">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#哎呦，不错哦"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">听见下雨的声音</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#告白气球">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦地表最强世界巡回演唱会"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦的床边故事"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">告白气球</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌手"/>
+	<release rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Try"/>
+	<release rdf:resource="http://www.co-ode.org/ontologies/ont.owl#周杰伦魔天伦世界巡回演唱会"/>
+	<release rdf:resource="http://www.co-ode.org/ontologies/ont.owl#天台"/>
+	<release rdf:resource="http://www.co-ode.org/ontologies/ont.owl#惊叹号"/>
+	<release rdf:resource="http://www.co-ode.org/ontologies/ont.owl#最伟大的作品"/>
+	<release rdf:resource="http://www.co-ode.org/ontologies/ont.owl#说好不哭"/>
+	<release rdf:resource="http://www.co-ode.org/ontologies/ont.owl#雪碧篮球"/>
+	<release rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#JAY"/>
+	<release rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#七里香"/>
+	<release rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#叶惠美"/>
+	<release rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦的床边故事"/>
+	<release rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#我很忙"/>
+	<release rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#摩杰座"/>
+	<release rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#等你下课"/>
+	<release rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#范特西"/>
+	<release rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#跨时代"/>
+	<release rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#12新作"/>
+	<singer_birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1979年1月18日</singer_birthday>
+	<singer_english_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jay</singer_english_name>
+	<singer_introduction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">著名歌手，音乐人，词曲创作人，编曲及制作人，MV及电影导演。新世纪华语歌坛领军人物，中国风歌曲始祖，被时代周刊誉为“亚洲猫王”，是2000年后亚洲流行乐坛最具革命性与指标性的创作歌手，亚洲销量超过3100万张，有“亚洲流行天王”之称，开启华语乐坛“R&amp;B时代”与“流行乐中国风”的先河，周杰伦的出现打破了亚洲流行乐坛长年停滞不前的局面，为亚洲流行乐坛翻开了新的一页，是华语乐坛真正把R&amp;B提升到主流高度的人物，引领华语乐坛革命整十年，改写了华语乐坛的流行方向。</singer_introduction>
+	<singer_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">周杰伦</singer_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦地表最强世界巡回演唱会">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#专辑"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#Now_You_See_Me"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#七里香"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#以父之名"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#半岛铁盒"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#印地安老斑鸠"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#双截棍"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#告白气球"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#土耳其冰淇淋"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#床边故事"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#开不了口"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#我的时代"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#我要夏天"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#晴天"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#爷爷泡的茶"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#爸我回来了"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#稻香"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#美人鱼"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#英雄"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#说走就走"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#青花瓷"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#鞋子特大号"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#夜曲_+_窃爱"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#大笨钟_+_暗号_+_彩虹_+_龙卷风"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#枫_+_退后_+_搁浅"/>
+	<released_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦"/>
+	<album_introduction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">地表最强音乐引力
+太空人也挡不住！
+用音乐出发，建构出神入化的感官新宇宙！
+
+周杰伦
+“地表最强THE INVINCIBLE”演唱会
+DVD版.蓝光版
+太空银.宇宙黑 特殊造型铁盒包装
+11/01重磅回归地表发行</album_introduction>
+	<album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">周杰伦地表最强世界巡回演唱会</album_name>
+	<album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019-11</album_release_date>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦的床边故事">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#专辑"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#Now_You_See_Me"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#一点点"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#不该"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#前世情人"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#告白气球"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#土耳其冰淇淋"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#床边故事"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#爱情废柴"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#英雄"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#说走就走"/>
+	<released_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦"/>
+	<album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">周杰伦的床边故事</album_name>
+	<album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2016-06-24</album_release_date>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦限定珍藏DEMO空间">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#专辑"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#搁浅_DEMO"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#晴天_DEMO"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#爱在西元前_DEMO"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#纽约地铁_DEMO"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#青花瓷_DEMO"/>
+	<album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">周杰伦限定珍藏DEMO空间</album_name>
+	<album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-08</album_release_date>
+	<singer_introduction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Demo有时候这样乱唱一个歌词，觉得这一句好像很顺，然后就开始写下去这个歌词。特别地来了，听一下这个尾奏，蛮长的。但现在应该没有这样子，当初为什么没有把这个尾奏写进去，其实我也不知道。”</singer_introduction>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#哎呦，不错哦">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#专辑"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#一口气全唸对"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#听爸爸的话"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#听见下雨的声音"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#天涯过客"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#怎么了"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#我要夏天"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#手写的从前"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#窃爱"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#算什么男人"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#美人鱼"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#阳明山"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#鞋子特大号"/>
+	<released_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦"/>
+	<album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">哎呦，不错哦</album_name>
+	<album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">哎呦，不错哦，将自己的口头禅当成专辑名称，似乎有意呈现专辑更贴近他本人的内在，新歌“鞋子特大号”大玩幽默创意，更化身喜剧泰斗卓别林，让人耳目一新。
+
+周杰伦以往总爱将口头禅写入歌词，例如“我的地盘”就有“der”、“超人不会飞”有“超屌”、“红模仿”的“哎呦”等，如今把口头禅当专辑名称，是周杰伦的主意，并被唱片公司接受。
+
+首波主打歌“鞋子特大号”，周杰伦作曲、方文山作词，周杰伦说：“‘鞋子特大号’走复古风的嘻哈饶舌歌，歌词有卓别林式的幽默。
+”他以诙谐、顽童的口吻演唱，包含低沉嗓音，和声的安排细节令人莞尔一笑。
+
+卓别林在世人心目中，具有许多特色，包括宽大鞋子、窄西装、圆顶帽子及手杖等，方文山举例“双截棍”之于李小龙，“鞋子特大号”就是卓别林的写照。</album_name>
+	<album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014-12</album_release_date>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#哪里都是你">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#周杰伦魔天伦世界巡回演唱会"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#12新作"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">哪里都是你</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#四季列车">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#12新作"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">四季列车</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#土耳其冰淇淋">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦地表最强世界巡回演唱会"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦的床边故事"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">土耳其冰淇淋</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#大笨钟">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#12新作"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">大笨钟</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#天涯过客">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#哎呦，不错哦"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">天涯过客</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#她的睫毛">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#叶惠美"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">她的睫毛</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#床边故事">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#爱的飞行日记"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦地表最强世界巡回演唱会"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">床边故事</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#开不了口">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#周杰伦魔天伦世界巡回演唱会"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦地表最强世界巡回演唱会"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">开不了口</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#怎么了">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#哎呦，不错哦"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">怎么了</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#惊叹号（歌曲）">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#周杰伦魔天伦世界巡回演唱会"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#惊叹号"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">惊叹号</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#懦夫">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#叶惠美"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">懦夫</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#我叫小麦">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#2011最新创作"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">我叫小麦</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#我很忙">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#专辑"/>
+	<album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">我很忙</album_name>
+	<album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007-11-01</album_release_date>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#我的时代">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦地表最强世界巡回演唱会"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">我的时代</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#我要夏天">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦地表最强世界巡回演唱会"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#哎呦，不错哦"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">我要夏天</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#手写的从前">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#哎呦，不错哦"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">手写的从前</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#手语">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#周杰伦魔天伦世界巡回演唱会"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#12新作"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">手语</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#搁浅_DEMO">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦限定珍藏DEMO空间"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">搁浅 DEMO</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#摩杰座">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#专辑"/>
+	<album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">摩杰座</album_name>
+	<album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008-10-15</album_release_date>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#明明就">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#周杰伦魔天伦世界巡回演唱会"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#12新作"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">明明就</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#晴天">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#叶惠美"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦地表最强世界巡回演唱会"/>
+	<song_content rdf:datatype="http://www.w3.org/2001/XMLSchema#string">故事的小黄花
+从出生那年就飘着
+童年的荡秋千
+随记忆一直晃到现在
+rui sou sou xi dou xi la
+sou la xi xi xi xi la xi la sou
+吹着前奏望着天空
+我想起花瓣试着掉落
+为你翘课的那一天
+花落的那一天
+教室的那一间
+我怎么看不见
+消失的下雨天
+我好想再淋一遍
+没想到失去的勇气我还留着
+好想再问一遍
+你会等待还是离开
+刮风这天我试过握着你手
+但偏偏雨渐渐大到我看你不见
+还要多久我才能在你身边
+等到放晴的那天也许我会比较好一点
+从前从前有个人爱你很久
+但偏偏风渐渐把距离吹得好远
+好不容易又能再多爱一天
+但故事的最后你好像还是说了拜拜
+为你翘课的那一天
+花落的那一天
+教室的那一间
+我怎么看不见
+消失的下雨天
+我好想再淋一遍
+没想到失去的勇气我还留着
+好想再问一遍
+你会等待还是离开
+刮风这天我试过握着你手
+但偏偏雨渐渐大到我看你不见
+还要多久我才能在你身边
+等到放晴的那天也许我会比较好一点
+从前从前有个人爱你很久
+偏偏风渐渐把距离吹得好远
+好不容易又能再多爱一天
+但故事的最后你好像还是说了拜拜
+刮风这天我试过握着你手
+但偏偏雨渐渐大到我看你不见
+还要多久我才能够在你身边
+等到放晴那天也许我会比较好一点
+从前从前有个人爱你很久
+但偏偏雨渐渐把距离吹得好远
+好不容易又能再多爱一天
+但故事的最后你好像还是说</song_content>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">晴天</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#晴天_DEMO">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦限定珍藏DEMO空间"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">晴天 DEMO</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#梦想启动">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#12新作"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">梦想启动</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#梯田">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#叶惠美"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">梯田</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#比较大的大提琴">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#周杰伦魔天伦世界巡回演唱会"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#12新作"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">比较大的大提琴</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#游戏_英雄联盟">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#专辑"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#英雄"/>
+	<album_introduction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">人生不是一个人的游戏
+一起奋斗一起超越一起杀吧sup兄弟
+好战好胜战胜逆命
+管他天赋够不够我们都还需要再努力
+
+亚洲天王周杰伦为英雄联盟打造品牌主题曲“英雄”，以悬疑重拍摇滚嘻哈曲风，塑造出游戏世界里的英雄们各个身怀绝技、武功高强的音乐形象！
+身为《英雄联盟》忠实玩家的周杰伦，以他独特的歌词语法将游戏对战的过程描述得活灵活现；甚至游戏术语也可以唱成歌词；更用他J式趣味语法来形容游戏里的战斗动作</album_introduction>
+	<album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">游戏 英雄联盟</album_name>
+	<album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2016-03</album_release_date>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#爱你没差">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#12新作"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">爱你没差</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#爱在西元前_DEMO">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦限定珍藏DEMO空间"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">爱在西元前 DEMO</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#爱情废柴">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦的床边故事"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">爱情废柴</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#爱的悬崖">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#叶惠美"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">爱的悬崖</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#爱的飞行日记">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦地表最强世界巡回演唱会"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#跨时代"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">爱的飞行日记</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#爷爷泡的茶">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦地表最强世界巡回演唱会"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">爷爷泡的茶</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#爸我回来了">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦地表最强世界巡回演唱会"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">爸我回来了</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#稻香">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦地表最强世界巡回演唱会"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">稻香</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#窃爱">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#哎呦，不错哦"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">窃爱</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#等你下课">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#专辑"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#等你下课（歌曲）"/>
+	<released_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦"/>
+	<album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">等你下课</album_name>
+	<album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-01-18</album_release_date>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#算什么男人">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#哎呦，不错哦"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">算什么男人</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#红尘客栈">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#12新作"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">红尘客栈</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#纽约地铁_DEMO">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦限定珍藏DEMO空间"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">纽约地铁 DEMO</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#美人鱼">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦地表最强世界巡回演唱会"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#哎呦，不错哦"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">美人鱼</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#英雄">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦地表最强世界巡回演唱会"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦的床边故事"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#游戏_英雄联盟"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">英雄</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#范特西">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#专辑"/>
+	<album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">范特西</album_name>
+	<album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2001-09-21</album_release_date>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#说走就走">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦地表最强世界巡回演唱会"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">说走就走</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#跨时代">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#专辑"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#免费教学录影带"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#嘻哈空姐"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#好久不见"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#我落泪。情绪零碎"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#烟花易冷"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#自导自演"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#说了再见"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#超人不会飞"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#跨时代（歌曲）"/>
+	<include rdf:resource="http://www.co-ode.org/ontologies/ont.owl#雨下一整晚"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#爱的飞行日记"/>
+	<released_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦"/>
+	<album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">跨时代</album_name>
+	<album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-05-18</album_release_date>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#阳明山">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#哎呦，不错哦"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">阳明山</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#青花瓷">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.co-ode.org/ontologies/ont.owl#周杰伦魔天伦世界巡回演唱会"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦地表最强世界巡回演唱会"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">青花瓷</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#青花瓷_DEMO">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦限定珍藏DEMO空间"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">青花瓷 DEMO</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#鞋子特大号">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦地表最强世界巡回演唱会"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#哎呦，不错哦"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">鞋子特大号</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#12新作">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#专辑"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#乌克丽丽"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#傻笑"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#公公偏头痛"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#哪里都是你"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#四季列车"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#大笨钟"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#手语"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#明明就"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#梦想启动"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#比较大的大提琴"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#爱你没差"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#红尘客栈"/>
+	<released_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦"/>
+	<album_introduction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12这个数字在古今中外，东西方玄学甚至科学思想上都有特殊意义；时间的计算方式以12为基准，古代中国传统是以12时辰为计时标准，一年有12个月、东方有12生肖、西方有12星座；12在生活上无所不在。
+因此数字12，属于圆满的象征，12代表的也是一种完全的意思。
+周杰伦的12，代表的也是一种圆满与完全，出道第12年的第十二个月，推出一年一张的新专辑，代表着对音乐的圆满成就，也代表音乐界另一个新的大循环的预告。</album_introduction>
+	<album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12新作</album_name>
+	<album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012-12-28</album_release_date>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#2011最新创作">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#专辑"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#我叫小麦"/>
+	<released_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦"/>
+	<album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011最新创作</album_name>
+	<album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011-05</album_release_date>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#夜曲_+_窃爱">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦地表最强世界巡回演唱会"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">夜曲 + 窃爱</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#大笨钟_+_暗号_+_彩虹_+_龙卷风">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦地表最强世界巡回演唱会"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">大笨钟 + 暗号 + 彩虹 + 龙卷风</song_name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#枫_+_退后_+_搁浅">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦地表最强世界巡回演唱会"/>
+	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">枫 + 退后 + 搁浅</song_name>
+</rdf:Description>
+
+</rdf:RDF>

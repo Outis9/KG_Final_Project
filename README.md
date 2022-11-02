@@ -39,4 +39,21 @@ $\downarrow$
 
 ## 2022-11-02
 
-测试有没有switch 到main
+@Hakii
+
+1. 测试有没有switch 到main
+
+
+
+@yy
+
+1. 通过`rdf2rdf-1.0.1-2.3.1.jar`将`song.owl`文件转为`song.turtle`,再导入`neo4j`
+
+neo4j related version info:
+
+1. `java version 1.8.0`
+2. `neo4j version 3.5.35`
+3. `neosemantics-3.5.0.4.jar`
+
+
+
