@@ -1339,7 +1339,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦地表最强世界巡回演唱会">
         <rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#专辑"/>
         <include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#Now_You_See_Me"/>
-        <include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#七里香"/>
+        <include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#七里香（歌曲）"/>
         <include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#以父之名"/>
         <include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#半岛铁盒"/>
         <include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#印地安老斑鸠"/>
@@ -1512,8 +1512,8 @@ DVD版.蓝光版
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#床边故事">
         <rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
-        <include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#爱的飞行日记"/>
         <include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦地表最强世界巡回演唱会"/>
+        <include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦的床边故事"/>
         <song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">床边故事</song_name>
     </owl:NamedIndividual>
     

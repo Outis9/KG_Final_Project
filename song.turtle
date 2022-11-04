@@ -91,30 +91,30 @@
 
 <rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#专辑">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="node1ggu71to3x1"/>
+	<rdfs:subClassOf rdf:nodeID="node1gh0jl589x1"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1ggu71to3x1">
+<rdf:Description rdf:nodeID="node1gh0jl589x1">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#album_release_date"/>
 	<owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#专辑">
-	<rdfs:subClassOf rdf:nodeID="node1ggu71to3x2"/>
+	<rdfs:subClassOf rdf:nodeID="node1gh0jl589x2"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1ggu71to3x2">
+<rdf:Description rdf:nodeID="node1gh0jl589x2">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#album_introduction"/>
 	<owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#专辑">
-	<rdfs:subClassOf rdf:nodeID="node1ggu71to3x3"/>
+	<rdfs:subClassOf rdf:nodeID="node1gh0jl589x3"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1ggu71to3x3">
+<rdf:Description rdf:nodeID="node1gh0jl589x3">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#album_name"/>
 	<owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -122,40 +122,40 @@
 
 <rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌手">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="node1ggu71to3x4"/>
+	<rdfs:subClassOf rdf:nodeID="node1gh0jl589x4"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1ggu71to3x4">
+<rdf:Description rdf:nodeID="node1gh0jl589x4">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#singer_birthday"/>
 	<owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌手">
-	<rdfs:subClassOf rdf:nodeID="node1ggu71to3x5"/>
+	<rdfs:subClassOf rdf:nodeID="node1gh0jl589x5"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1ggu71to3x5">
+<rdf:Description rdf:nodeID="node1gh0jl589x5">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#singer_english_name"/>
 	<owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌手">
-	<rdfs:subClassOf rdf:nodeID="node1ggu71to3x6"/>
+	<rdfs:subClassOf rdf:nodeID="node1gh0jl589x6"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1ggu71to3x6">
+<rdf:Description rdf:nodeID="node1gh0jl589x6">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#singer_introduction"/>
 	<owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌手">
-	<rdfs:subClassOf rdf:nodeID="node1ggu71to3x7"/>
+	<rdfs:subClassOf rdf:nodeID="node1gh0jl589x7"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1ggu71to3x7">
+<rdf:Description rdf:nodeID="node1gh0jl589x7">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#singer_name"/>
 	<owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -163,20 +163,20 @@
 
 <rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<rdfs:subClassOf rdf:nodeID="node1ggu71to3x8"/>
+	<rdfs:subClassOf rdf:nodeID="node1gh0jl589x8"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1ggu71to3x8">
+<rdf:Description rdf:nodeID="node1gh0jl589x8">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#song_content"/>
 	<owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲">
-	<rdfs:subClassOf rdf:nodeID="node1ggu71to3x9"/>
+	<rdfs:subClassOf rdf:nodeID="node1gh0jl589x9"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1ggu71to3x9">
+<rdf:Description rdf:nodeID="node1gh0jl589x9">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
 	<owl:onProperty rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#song_name"/>
 	<owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -1019,7 +1019,7 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#专辑"/>
 	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#Now_You_See_Me"/>
-	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#七里香"/>
+	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#七里香（歌曲）"/>
 	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#以父之名"/>
 	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#半岛铁盒"/>
 	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#印地安老斑鸠"/>
@@ -1162,8 +1162,8 @@ DVD版.蓝光版
 <rdf:Description rdf:about="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#床边故事">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 	<rdf:type rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#歌曲"/>
-	<include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#爱的飞行日记"/>
 	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦地表最强世界巡回演唱会"/>
+	<include_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦的床边故事"/>
 	<song_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">床边故事</song_name>
 </rdf:Description>
 
