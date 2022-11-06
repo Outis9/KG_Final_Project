@@ -150,7 +150,13 @@ CALL semantics.importRDF('file:///E:/All_University_File/Junior/Knowledge_graph/
 
 
 
+## 2022-11-06
 
+@Hakii
+
+解决yy未解决问题
+
+实现python+cypher+neo4j简单Demo
 
 
 
