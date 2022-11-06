@@ -105,6 +105,41 @@ def get_album_releasedBy(singer):
     return ans
 
 
+# 交互
+def homepage():
+    print('0. Exit\n'
+          '1. 查询歌曲、专辑、歌手\n'
+          '2. NULL\n'
+          '3. 查询歌曲在什么专辑里\n'
+          '4. 查询专辑有哪些歌曲\n'
+          '5. 查询歌手有哪些专辑\n')
+    op = int(input())
+    if op == 0:
+        return 0
+    elif op == 1:
+        pass
+    elif op == 2:
+        pass
+    elif op == 3:
+        print('请输入需要查询的歌曲：')
+        q_song = input()
+        q_albums = get_album_name_by_song(q_song)
+        print(q_albums)
+    elif op == 4:
+        print('请输入需要查询的专辑：')
+        q_album = input()
+        q_songs = get_album_include(q_album)
+        print(q_songs)
+    elif op == 5:
+        print('请输入需要查询的歌手：')
+        q_singer = input()
+        q_albums = get_album_releasedBy(q_singer)
+        print(q_albums)
+    else:
+        print('请重新输入')  # 本来想写一个异常抛出
+
+    return 1
+
 if __name__ == '__main__':
     # 连接Neo4j
     # @Hakii
@@ -112,6 +147,6 @@ if __name__ == '__main__':
     driver = GraphDatabase.driver(uri, auth=("neo4j", "040811"))
 
     get_all()  # 获取全部信息
-    get_album_name_by_song('Mojito')
-    get_album_include('叶惠美')
-    get_album_releasedBy('周杰伦')
+    while homepage():
+        pass
+
