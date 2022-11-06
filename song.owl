@@ -1433,15 +1433,15 @@ DVD版.蓝光版
         <include rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#鞋子特大号"/>
         <released_by rdf:resource="http://www.semanticweb.org/404NotFound/ontologies/2022/10/KG_Final_Project#周杰伦"/>
         <album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">哎呦，不错哦</album_name>
-        <album_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">哎呦，不错哦，将自己的口头禅当成专辑名称，似乎有意呈现专辑更贴近他本人的内在，新歌“鞋子特大号”大玩幽默创意，更化身喜剧泰斗卓别林，让人耳目一新。
+        <album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014-12</album_release_date>
+        <singer_introduction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">哎呦，不错哦，将自己的口头禅当成专辑名称，似乎有意呈现专辑更贴近他本人的内在，新歌“鞋子特大号”大玩幽默创意，更化身喜剧泰斗卓别林，让人耳目一新。
 
 周杰伦以往总爱将口头禅写入歌词，例如“我的地盘”就有“der”、“超人不会飞”有“超屌”、“红模仿”的“哎呦”等，如今把口头禅当专辑名称，是周杰伦的主意，并被唱片公司接受。
 
 首波主打歌“鞋子特大号”，周杰伦作曲、方文山作词，周杰伦说：“‘鞋子特大号’走复古风的嘻哈饶舌歌，歌词有卓别林式的幽默。
 ”他以诙谐、顽童的口吻演唱，包含低沉嗓音，和声的安排细节令人莞尔一笑。
 
-卓别林在世人心目中，具有许多特色，包括宽大鞋子、窄西装、圆顶帽子及手杖等，方文山举例“双截棍”之于李小龙，“鞋子特大号”就是卓别林的写照。</album_name>
-        <album_release_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014-12</album_release_date>
+卓别林在世人心目中，具有许多特色，包括宽大鞋子、窄西装、圆顶帽子及手杖等，方文山举例“双截棍”之于李小龙，“鞋子特大号”就是卓别林的写照。</singer_introduction>
     </owl:NamedIndividual>
     
 

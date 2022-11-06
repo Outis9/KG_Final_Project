@@ -70,11 +70,13 @@ neo4j related version info:
 ```cypher
 match (n) detach delete n //删除数据库
 CALL semantics.importRDF('file:///E:/All_University_File/Junior/Knowledge_graph/experiment/KG_Final_Project/song.turtle', 'RDF/XML',{handleVocabUris: "IGNORE"}) //导入数据
+                                                                                         // @Hakii
+call semantics.importRDF('file:///E:/project/SemanticWeb/Final/song2.turtle','RDF/XML',{handleVocabUris: "IGNORE"})
 ```
 
 [查询]:
 
-1. 查询歌手、专辑、歌曲(作为最开始的展示)
+1. 查询歌曲、专辑、歌手(作为最开始的展示)
 
    ```cypher
    //@Hakii：约定n、m、o分别表示歌曲、专辑、歌手
