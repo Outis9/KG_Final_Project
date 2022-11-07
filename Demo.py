@@ -140,7 +140,7 @@ def func1():
 
 # 功能2
 def func2():
-    print('输入格式[start,end](start和end表示起止时间，格式为Y/M)')
+    print('输入格式[start,end](start和end表示起止时间，格式为Y/M，可以不同时输入)')
     cns = input()
     [start, end] = cns.split(',')
 
@@ -157,13 +157,27 @@ def func2():
             # print(song['song_name'])
             album_end.append(song['album_name'])
     ans = [i for i in album_start if i in album_end]
-    print(ans)
+    if start == '':
+        if len(album_end) == 0:
+            print('无')
+        else:
+            print(album_end)
+    elif end == '':
+        if len(album_start) == 0:
+            print('无')
+        else:
+            print(album_start)
+    else:
+        if len(ans) == 0:
+            print('无')
+        else:
+            print(ans)
     return ans
 # 交互
 def homepage():
     print('0. Exit\n'
           '1. 查询所有歌曲、专辑、歌手\n'
-          '2. NULL\n'
+          '2. 查询时间区间内的发行的专辑\n'
           '3. 查询歌曲在什么专辑里\n'
           '4. 查询专辑有哪些歌曲\n'
           '5. 查询歌手有哪些专辑\n')
