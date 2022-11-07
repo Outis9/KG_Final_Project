@@ -173,6 +173,8 @@ def func2():
         else:
             print(ans)
     return ans
+
+
 # 交互
 def homepage():
     print('0. Exit\n'

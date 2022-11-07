@@ -1,5 +1,9 @@
 # KG_Final_Project
 
+## What We Do
+
+![image-20221107195748762](E:\project\SemanticWeb\Final\figure\知识图谱.png)
+
 ## 2022-10-26
 
 @Hakii
