@@ -2,7 +2,7 @@
 
 ## What We Do
 
-![image-20221107195748762](E:\project\SemanticWeb\Final\figure\知识图谱.png)
+![image-20221107195748762](.\figure\知识图谱.png)
 
 ## 2022-10-26
 
