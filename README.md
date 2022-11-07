@@ -148,13 +148,7 @@ call semantics.importRDF('file:///E:/project/SemanticWeb/Final/song2.turtle','RD
    return m
    ```
 
-6. 
-
-7. 
-
-8. 
-
-
+   
 
 ## 2022-11-06
 
