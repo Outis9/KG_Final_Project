@@ -2,7 +2,7 @@
 
 ## What We Do
 
-![image-20221107195748762](.\figure\知识图谱.png)
+![image-20221107195748762](https://typora-picgo-outis.oss-cn-shanghai.aliyuncs.com/img/202211072007316.png)
 
 ## 2022-10-26
 
