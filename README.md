@@ -18,7 +18,7 @@ $\downarrow$
 
 
 
-@outis
+@Outis
 
 共计10张专辑，66首单曲
 
@@ -49,7 +49,7 @@ $\downarrow$
 
 
 
-@yy
+@Outis
 
 1. 通过`rdf2rdf-1.0.1-2.3.1.jar`将`song.owl`文件转为`song.turtle`,再导入`neo4j`
 
@@ -63,7 +63,7 @@ neo4j related version info:
 
 ## 2022-11-4
 
-@yy
+@Outis
 
 [数据来源]：(https://mojim.com/cnh100951.htm)
 
@@ -73,7 +73,7 @@ neo4j related version info:
 
 ```cypher
 match (n) detach delete n //删除数据库
-CALL semantics.importRDF('file:///E:/All_University_File/Junior/Knowledge_graph/experiment/KG_Final_Project/song.turtle', 'RDF/XML',{handleVocabUris: "IGNORE"}) //导入数据
+CALL semantics.importRDF('file:///E:……/KG_Final_Project/song.turtle', 'RDF/XML',{handleVocabUris: "IGNORE"}) //导入数据
                                                                                          // @Hakii
 call semantics.importRDF('file:///E:/project/SemanticWeb/Final/song2.turtle','RDF/XML',{handleVocabUris: "IGNORE"})
 ```
@@ -154,7 +154,7 @@ call semantics.importRDF('file:///E:/project/SemanticWeb/Final/song2.turtle','RD
 
 @Hakii
 
-解决yy未解决问题
+解决Outis未解决问题
 
 实现python+cypher+neo4j简单Demo
 

@@ -215,7 +215,7 @@ if __name__ == '__main__':
     # 连接Neo4j
     # @Hakii
     uri = "bolt://localhost:7687"  # 127.0.0.1:7687.
-    driver = GraphDatabase.driver(uri, auth=("neo4j", "040811"))
+    driver = GraphDatabase.driver(uri, auth=("neo4j", "NEO4J"))
 
     get_all()  # 获取全部信息
     while homepage():
